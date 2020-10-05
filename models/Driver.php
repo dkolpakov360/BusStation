@@ -63,7 +63,7 @@ class Driver extends \yii\db\ActiveRecord
             }
             
             $driver_result[] = [
-                'id' => $bus->id,
+                'id' => $driver->id,
                 'name' => $driver->name,
                 'birthday' => $driver->birthday,
                 'age' => date('Y') - substr($driver->birthday,0,4),
